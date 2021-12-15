@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "417581281276",
+    "project_id": "memory-locker-cd61c",
+    "storage_bucket": "memory-locker-cd61c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:417581281276:android:c62d863b86d41680ab4c79",
+        "android_client_info": {
+          "package_name": "com.mka.memorylocker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "417581281276-40i6nlharh3u4shq2a20difcl4kpmbgp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mka.memorylocker",
+            "certificate_hash": "1bd9c40d61daefec49af4f716d78e5711813aa97"
+          }
+        },
+        {
+          "client_id": "417581281276-3st1ct3g91ng95i55akksg4hrpa2lkuo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaEHMPy0W2Od_-QE0QdeXLaGP_I8UMGpE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "417581281276-3st1ct3g91ng95i55akksg4hrpa2lkuo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
