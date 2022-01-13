@@ -1,6 +1,6 @@
-package com.mka.memorylocker;
+package com.mka.memorylocker.view;
 
-import static com.mka.memorylocker.MemoryLockerActivity.FIRESTORE_MEMORY_REF;
+import static com.mka.memorylocker.view.MemoryLockerActivity.FIRESTORE_MEMORY_REF;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
@@ -9,7 +9,6 @@ import androidx.appcompat.widget.SwitchCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.annotation.SuppressLint;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
@@ -19,21 +18,17 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.android.gms.tasks.OnFailureListener;
-import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.firebase.Timestamp;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.CollectionReference;
-import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.QueryDocumentSnapshot;
-import com.google.firebase.firestore.QuerySnapshot;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
-import com.mka.memorylocker.Util.MemoryApi;
-import com.mka.memorylocker.Util.MemoryListener;
-import com.mka.memorylocker.adapter.MemoryRecyclerAdapter;
+import com.mka.memorylocker.R;
+import com.mka.memorylocker.controller.Util.MemoryApi;
+import com.mka.memorylocker.controller.Util.MemoryListener;
+import com.mka.memorylocker.controller.adapter.MemoryRecyclerAdapter;
 import com.mka.memorylocker.model.Memory;
 
 import java.util.ArrayList;

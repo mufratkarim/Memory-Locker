@@ -10,7 +10,7 @@
         android:gravity="center"
         android:orientation="vertical"
         android:padding="16dp"
-        tools:context=".LoginActivity">
+        tools:context=".view.LoginActivity">
 
         <ProgressBar
             android:id="@+id/progress"

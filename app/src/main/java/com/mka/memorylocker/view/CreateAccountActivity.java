@@ -1,6 +1,6 @@
-package com.mka.memorylocker;
+package com.mka.memorylocker.view;
 
-import static com.mka.memorylocker.LoginActivity.FIRESTORE_USER_REF;
+import static com.mka.memorylocker.view.LoginActivity.FIRESTORE_USER_REF;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
@@ -15,8 +15,9 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.CollectionReference;
 import com.google.firebase.firestore.FirebaseFirestore;
+import com.mka.memorylocker.R;
 import com.mka.memorylocker.databinding.ActivityCreateAccountBinding;
-import com.mka.memorylocker.Util.MemoryApi;
+import com.mka.memorylocker.controller.Util.MemoryApi;
 
 
 import java.util.HashMap;

@@ -3,7 +3,7 @@
     package="com.mka.memorylocker">
 
     <application
-        android:name=".Util.MemoryApi"
+        android:name=".controller.Util.MemoryApi"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -11,26 +11,26 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MemoryLocker">
         <activity
-            android:name=".MemoryListActivity"
+            android:name=".view.MemoryListActivity"
             android:label="Memories"
             android:exported="true" />
         <activity
-            android:name=".MemoryLockerActivity"
+            android:name=".view.MemoryLockerActivity"
             android:label="Create your memory"
             android:exported="true">
         </activity>
         <activity
-            android:name=".CreateAccountActivity"
+            android:name=".view.CreateAccountActivity"
             android:exported="true"
             android:label="@string/prompt_create_account"
-            android:parentActivityName=".LoginActivity" />
+            android:parentActivityName=".view.LoginActivity" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".view.LoginActivity"
             android:exported="true"
             android:label="@string/action_sign_in_short"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".view.MainActivity" />
         <activity
-            android:name=".MainActivity"
+            android:name=".view.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

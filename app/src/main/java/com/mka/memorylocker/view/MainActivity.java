@@ -1,10 +1,12 @@
-package com.mka.memorylocker;
+package com.mka.memorylocker.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
+
+import com.mka.memorylocker.R;
 
 import java.util.Objects;
 

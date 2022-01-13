@@ -1,4 +1,4 @@
-package com.mka.memorylocker.Util;
+package com.mka.memorylocker.controller.Util;
 
 import com.mka.memorylocker.model.Memory;
 

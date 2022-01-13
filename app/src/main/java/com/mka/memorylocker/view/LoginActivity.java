@@ -1,32 +1,26 @@
-package com.mka.memorylocker;
+package com.mka.memorylocker.view;
 
-import static com.mka.memorylocker.CreateAccountActivity.KEY_USER_ID;
-import static com.mka.memorylocker.CreateAccountActivity.KEY_USER_NAME;
+import static com.mka.memorylocker.view.CreateAccountActivity.KEY_USER_ID;
+import static com.mka.memorylocker.view.CreateAccountActivity.KEY_USER_NAME;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnFailureListener;
-import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.CollectionReference;
-import com.google.firebase.firestore.EventListener;
 import com.google.firebase.firestore.FirebaseFirestore;
-import com.google.firebase.firestore.FirebaseFirestoreException;
 import com.google.firebase.firestore.QueryDocumentSnapshot;
-import com.google.firebase.firestore.QuerySnapshot;
-import com.mka.memorylocker.Util.MemoryApi;
+import com.mka.memorylocker.R;
+import com.mka.memorylocker.controller.Util.MemoryApi;
 import com.mka.memorylocker.databinding.ActivityLoginBinding;
 
 import java.util.Objects;

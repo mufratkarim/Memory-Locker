@@ -1,4 +1,4 @@
-package com.mka.memorylocker.adapter;
+package com.mka.memorylocker.controller.adapter;
 
 import android.content.Context;
 import android.content.Intent;
@@ -14,11 +14,10 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.mka.memorylocker.R;
-import com.mka.memorylocker.Util.MemoryListener;
+import com.mka.memorylocker.controller.Util.MemoryListener;
 import com.mka.memorylocker.model.Memory;
 import com.squareup.picasso.Picasso;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class MemoryRecyclerAdapter extends RecyclerView.Adapter<MemoryRecyclerAdapter.MemoryViewHolder> {
