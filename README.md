@@ -9,4 +9,4 @@ Firebase Analytics, Authentication, Fire Store Database, Storage, Picasso, CardV
 # Activities
 1. Integrated Firebase Authentication to allow users to securely sign in and keep their sign in information stored in the Fire Store Database.
 2. Utilized Firebase Storage to allow users to upload their images and converted the images with the Picasso library to access them efficiently. 
-3. Developed features like complete deletion of specific memories from the application by accessing the cloud storage. 
+3. Developed features such as sharing specific memories and deleting them from the application through intent and FireStore storage. 
